@@ -68,7 +68,7 @@ namespace WebApplication2.Controllers
             }
         }
 
-        // PUT api/<FarmaciaController>/5
+        // PUT 
         [HttpPut("{id}")]
         public ActionResult Put(string id, [FromBody]Farmacia Cliente)
         {
